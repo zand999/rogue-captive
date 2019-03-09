@@ -7,7 +7,7 @@ It was designed to demonstrate the simplicity of offline credential grabbing and
 Installation after a fresh install of Rasbian Jessie Lite:
 ```
 sudo apt-get install git
-git clone https://github.com/braindead-sec/rogue-captive
+git clone https://github.com/zand999/rogue-captive
 cd rogue-captive
 chmod +x install.sh
 sudo ./install.sh
