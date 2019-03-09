@@ -6,7 +6,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 echo "Installing dependencies..."
-apt-get install macchanger hostapd dnsmasq apache2 php
+apt-get install macchanger hostapd dnsmasq apache2 php bridge-utils
 
 echo "Configuring components..."
 cp -f hostapd.conf /etc/hostapd/
